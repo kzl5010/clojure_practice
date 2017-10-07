@@ -1,0 +1,32 @@
+C-a : Move to beginning of line
+M-m : Move to first non-whitespace char on line
+C-e : Move to end of line
+C-f : Move forward one char
+C-b : Move back one char
+
+C-x b : Create a buffer
+C-x k : Kill buffer
+C-x C-f : Open a file 
+C-x C-s : Save file
+M-x function-name : run commands by name
+M-f : Move forward one word 
+M-b : Move backward one word
+C-s : Regex search for text in cuffer buffer and move to it
+C-r : same as above but reversed
+M-< : Move to beginning of buffer
+M-> : Move to end of buffer. 
+C-c C-k : load current buffer into repl and compile
+
+C-spc : Setting the mark
+M-w : Copy region to kill ring (copy)
+C-w : Kill region. (cut)
+C-y : Yank (paste)
+M-y : Cycle through kill ring after yanking
+M-d : kill word 
+C-k : kill line
+
+C-j : New line and indent 
+M-/ : Hippie expand 
+M-\ : Delete all spaces and tabs around point.
+C-h k : describe the function bound to the key binding
+C-h f : describe function
