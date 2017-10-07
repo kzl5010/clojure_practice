@@ -30,3 +30,13 @@ M-/ : Hippie expand
 M-\ : Delete all spaces and tabs around point.
 C-h k : describe the function bound to the key binding
 C-h f : describe function
+C-x 0: switch cursor to another window
+C-x 1 : delete all other windows
+
+C-x C-e : immediately sends expression preceding point to the repl
+C-u C-x C-e : sends expression after point to repl
+C-c M-j : cider - jack - in
+C-c M-n : set namespace to the namespace of top of current file
+M-x paredit-mode : turn on/off paredit-mode (always closes parens for u)
+M-( : paredit-wrap around e.g. + 1 |2 -> + 1 (2)
+C-right arrow : slurp (add stuff to parens)
